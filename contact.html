@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nostra – Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">Nostra</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">&#9776;</button>
+    <nav class="nav" id="nav">
+      <button class="close-menu" id="closeMenu" aria-label="Close menu">&times;</button>
+      <a href="index.html">Home</a>
+      <a href="index.html#new-arrival">New Arrival</a>
+      <a href="index.html#most-wanted">Most Wanted</a>
+      <a href="collections.html">Collections</a>
+      <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <form class="contact-box" id="contactForm">
+      <h2>Contact Us</h2>
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required></textarea>
+      <button type="submit" class="btn-light">Send &rarr;</button>
+      <p id="formMsg"></p>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h3>Nostra</h3>
+      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+    </div>
+    <div>
+      <h4>Pages</h4>
+      <a href="index.html">Home</a>
+      <a href="collections.html">Collections</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div>
+      <h4>Follow us</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
